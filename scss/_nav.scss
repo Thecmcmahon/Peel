@@ -1,0 +1,28 @@
+.nav a:hover{
+	text-decoration: underline;
+	font-weight: 600;
+	
+}
+.nav a:link, .nav a:visited{
+	color: #545F66;
+}
+
+.nav{
+	z-index: 10;
+	color: #545F66;
+}
+
+ul{
+	list-style: none;
+}
+
+
+@media screen and (min-width: 40em){
+	.nav{
+		position: fixed;
+		left: 5rem;
+		top: 50%;
+		transform: translateY(-50%);
+
+}
+}
