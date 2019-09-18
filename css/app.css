@@ -1,0 +1,45 @@
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+
+}
+h1{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 900;
+}
+nav {
+	background-color: #212121;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+@media screen and (min-width: 40em){
+	nav {
+		position: fixed;
+		right: 1em;
+		top: 50%;
+		transform: translateY(-50%);
+		background-color: transparent;
+	}
+}
+
+.selected {
+	background-color: yellow;
+}
+
+.timeline-item {
+	padding: 6rem 0;
+}
+
+.timeline-item:nth-child(even){
+	background-color: #e5e5e5;
+}
+
+.box {
+	width: 100%;
+	height: 400px;
+	background-color: #999;
+}
