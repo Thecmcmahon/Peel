@@ -1,7 +1,7 @@
 .box{
 	width: 300px;
 	height: 300px;
-	background-color: grey;
+	background-color: $color-box;
 }
 .line{
 	width: .5%;
@@ -11,20 +11,12 @@
 	position: fixed;
 	right: 10rem;
 }
-.one{
-	background-color: #ccc;
-	padding: 6rem 0;
-}
-.two{
-	background-color: #fff;
-	padding: 6rem 0;
-}
 
 .background:nth-child(even){
-	background-color: #9DC5BB;
+	background-color: $color-background1;
 }
 .background:nth-child(odd){
-	background-color: #EEE0CB;
+	background-color: $color-background2;
 }
 
 .year{
@@ -32,6 +24,10 @@
 	width: auto;
 }
 
-.main p{
+.main{
+
+	p{
 	margin-top: 2vh;
-}
+	}
+
+} 
