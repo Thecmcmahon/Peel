@@ -1,5 +1,5 @@
 .nav{
-
+	display: none;
 	animation-name: nav;
 	animation-duration: 2s;
 	animation-delay: 1s;
@@ -24,6 +24,7 @@
 	}
 
 	@media screen and (min-width: 40em){
+		display: block;
 		position: fixed;
 		right: -12rem;
 		top: 50%;
