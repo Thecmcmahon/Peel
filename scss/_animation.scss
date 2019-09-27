@@ -1,4 +1,18 @@
 @keyframes title{
 	0%{ content: 'C';}
-	100%{content: 'Co';}
+	12.5%{content: 'Co';}
+	25%{content: 'Col';}
+	37.5%{content: 'Colo';}
+	44%{content: 'Colos';}
+	55%{content: 'Coloss';}
+	60%{content: 'Colosse';}
+	70%{content: 'Colossev';}
+	80%{content: 'Colossevm';}
+	100%{content: 'Colossevm';}
+}
+
+@keyframes nav{
+	0%{right: -10rem;}
+
+	100%{right: 4rem;}
 }

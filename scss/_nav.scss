@@ -1,4 +1,10 @@
 .nav{
+
+	animation-name: nav;
+	animation-duration: 2s;
+	animation-delay: 1s;
+	animation-fill-mode: forwards;
+	font-size:2rem;
 	z-index: 10;
 	color: #545F66;
 	a:link, a:visited{
@@ -12,10 +18,14 @@
 	ul{
 		list-style: none;
 	}
+	.active{
+		text-decoration: underline;
+		font-weight: 800;
+	}
 
 	@media screen and (min-width: 40em){
 		position: fixed;
-		left: 5rem;
+		right: -12rem;
 		top: 50%;
 		transform: translateY(-50%);
 	}
