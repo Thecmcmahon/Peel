@@ -25,6 +25,9 @@ h2{
 	animation-duration: 2s;
 	animation-delay: 1s;
 	animation-fill-mode: forwards;
+	@media screen and (max-width: 64em){
+		display: none;
+	} 
 }
 .nav{
 	font-family: linotype-didot,serif;
@@ -35,4 +38,10 @@ h2{
 p{
 	font-family: garamond-premier-pro-display, serif;
 	font-weight: 400;
+}
+.mobile-home{
+	h1{
+		font-family: linotype-didot,serif;
+	}
+	
 }

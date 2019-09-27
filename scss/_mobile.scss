@@ -1,0 +1,15 @@
+.mobile-home{
+	h1{
+		transform: rotate(-90deg);
+		font-size: 5rem;
+		position: fixed;
+		bottom: 10rem;
+		// text-align: left;
+		right: 400px;
+		left: 0;
+		margin: 0;
+
+	}
+	height: 100%;
+	background-color: $color-background2;
+}
