@@ -1,12 +1,12 @@
 .nav{
 	display: block;
-		position: fixed;
-		right: -30rem;
-		top: 50%;
-		transform: translateY(-50%);
+	position: fixed;
+	right: -30rem;
+	top: 50%;
+	transform: translateY(-50%);
 	animation-name: nav;
 	animation-duration: 2s;
-	animation-delay: 1s;
+	animation-delay: 2s;
 	animation-fill-mode: forwards;
 	font-size:5rem;
 	z-index: 10;
