@@ -7,7 +7,7 @@ $('.overlay').hide();
 $('.overlay').append('<button>X</button>');
 
 // open overlay
-$('main p').click(function(){
+$('main img').click(function(){
   $('.overlay').show();
 });
 
