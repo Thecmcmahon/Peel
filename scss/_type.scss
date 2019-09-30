@@ -39,6 +39,9 @@ p{
 	font-family: garamond-premier-pro-display, serif;
 	font-weight: 400;
 	font-size: 2rem;
+	@media screen and (min-width: 64em){
+	font-size: 1.4rem;
+}
 }
 .mobile-home{
 	h1{
