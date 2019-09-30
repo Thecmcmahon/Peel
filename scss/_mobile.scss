@@ -13,3 +13,16 @@
 	height: 100%;
 	background-color: $color-background2;
 }
+header{
+	position: fixed;
+	height: 100vh;
+	width: 100%;
+	z-index: 10;
+	main{
+		p{
+			text-align: right;
+			font-size: 5rem;
+		}
+		
+	}
+}

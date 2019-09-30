@@ -1,12 +1,9 @@
 .nav{
 	display: block;
 	position: fixed;
-	right: -30rem;
+	right: 5rem;
 	top: 50%;
 	transform: translateY(-50%);
-	animation-name: nav;
-	animation-duration: 2s;
-	animation-delay: 2s;
 	animation-fill-mode: forwards;
 	font-size:5rem;
 	z-index: 100;
@@ -28,8 +25,45 @@
 	}
 
 	@media screen and (min-width: 64em){
-		
+		font-size:2rem;
+		animation-name: nav;
+		animation-duration: 2s;
+		animation-delay: 2s;
 	}
+}
+main {
+  display: fixed;
+  top: 0;
+  right: 0;
+  p {
+    
+}
+}
+.overlay {
+	z-index: 10;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,.45);
+  a{
+  	color: #fff !important;
+  }
+  button {
+    background-color: transparent;
+    border: 0;
+    position: fixed;
+    right: 2rem;
+    top: 2rem;
+    color: #333;
+    font-size: 2rem;
+    font-weight: 700;
+    &:hover {
+      cursor: pointer;
+      color: #666;
+    }
+  }
 }
 
 
