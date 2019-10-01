@@ -40,7 +40,12 @@ main {
     
 }
 }
+
+
 .overlay {
+	.nav{
+		-webkit-filter: blur(0) !important;
+	}
 	transition: all .4s;
 	z-index: 10;
 	position: fixed;
@@ -48,9 +53,10 @@ main {
 	height: 100vh;
   top: 0;
   left: 0;
-  background-color: rgba(0,0,0,.45);
+  background-color: rgba(0, 0, 0,.45);
   a, h1{
   	color: #fff !important;
+  	-webkit-filter: blur(0) !important;
   }
   button {
     background-color: transparent;
