@@ -29,8 +29,53 @@
 	p{
 	margin-top: 2vh;
 	}
+	img{
+		height:10%;
+		width: auto;
+	}
 
 } 
 .blur{
 	-webkit-filter: blur(5px);
 }
+
+.bottom-img{
+	margin: 0 auto;
+	p{
+		position: fixed;
+		bottom: 2rem;
+		width: 210px;
+		left: 50%;
+		transform: translateX(25%);
+		margin-left: 10px;
+	}
+	img{
+		position: fixed;
+		bottom: 2rem;
+		height: auto;
+		width: 210px;
+		right: 50%;
+		transform: translateX(25%);
+
+	}
+}
+.bottom-img2{
+	img{
+		height:20%;
+		width: auto;
+	}
+}
+
+.margintop{
+	margin-top: 50%;
+	transform: translateY(-25%);
+
+}
+
+
+
+
+
+
+
+
