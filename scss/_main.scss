@@ -31,7 +31,10 @@ body{
 .main{
 
 	p{
-	margin-top: 2vh;
+	
+	@media screen and (min-width: 64em) {
+		margin-top: 2vh;
+	}
 	}
 	img{
 		height:10%;
