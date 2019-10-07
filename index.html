@@ -21,10 +21,7 @@
 	</head>
 
 	<body>
-		<div class="box show-for-small-only">
-			
-		</div>
-		<header class="grid-container show-for-medium-only"><main class=""><img src="images/menu.svg"></main></header>
+		<header class="grid-container hide-for-large"><main class=""><img src="images/menu.svg"></main></header>
 		
 		<section class="overlay">
 			<div class="nav">
@@ -49,7 +46,7 @@
 			</section>
 		</section>
 
-		<div class="nav hide-for-medium-only hide-for-small-only">
+		<div class="nav show-for-large">
 			<ul  id="menu">
 
 				<li data-menuanchor="1stPage"><a href="#1stPage">LXX</a></li>
@@ -87,10 +84,10 @@
 				    	</div>
 				    </div>
 				    <div class="grid-x align-middle">
-				    	<div class="cell medium-3 medium-offset-3 small-12">
+				    	<div class="cell small-3 small-offset-2">
 				    		<img src="images/vespasian.png">
 				    	</div>
-				    	<div class="cell medium-2 medium-offset-1 small-12">
+				    	<div class="cell small-5 small-offset-1">
 				    		<p>Replica Statue of Vespasian Located in the modern art museam in Moscow Russia</p>
 				    	</div>
 				    </div>
@@ -329,7 +326,8 @@
 				menu: '#menu',
 				anchors: ['1stPage', '2ndPage','3rdPage', '4thPage', '5thPage', '6thPage', '7thPage', '8thPage', '9thPage', '10thPage', '11thPage', '12thPage', '13thPage'],
 				loopBottom: true,
-				// sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff']
+				scrollOverflow: true,
+				scrollingSpeed: 1000
 			});
 		</script>
 	</body>

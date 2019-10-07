@@ -27,10 +27,14 @@ header{
 	img{
 		width:64px;
 		height: auto;
+		@media screen and (max-width: 63.9375em) {
+			width:32px;
+			height: auto;
+		}
 
 
 	}
-	@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+	@media screen and (max-width: 63.9375em) {
 		top: 2rem;
 		right: 2rem;
 	}
