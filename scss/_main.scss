@@ -51,7 +51,7 @@ body{
 		width: 210px;
 		left: 50%;
 		transform: translateX(25%);
-		margin-left: 10px;
+		margin-left: 50px;
 	}
 	img{
 		position: fixed;
@@ -60,6 +60,11 @@ body{
 		width: 210px;
 		right: 50%;
 		transform: translateX(25%);
+		@media screen and (max-width: 64em){
+			width: 350px;
+			height: auto;
+
+		}
 
 	}
 }
