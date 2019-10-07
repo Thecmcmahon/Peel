@@ -10,6 +10,12 @@
 		margin: 0;
 		-webkit-filter: blur(0) !important;
 		text-transform: uppercase;
+		@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+			font-size: 10rem;
+			right: 600px;
+			left: 0;
+			bottom: 10rem;
+		}
 
 	}
 }
@@ -21,6 +27,15 @@ header{
 	img{
 		width:64px;
 		height: auto;
+		@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+			width:32px;
+			height: auto;
+		}
+
+	}
+	@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+		top: 2rem;
+		right: 2rem;
 	}
 	
 }
