@@ -1,9 +1,9 @@
 .mobile-home{
 	h1{
 		transform: rotate(-90deg);
-		font-size: 5.75rem;
+		font-size: 6.5rem;
 		position: fixed;
-		bottom: 2rem;
+		bottom: 4rem;
 		// text-align: left;
 		right: 200px;
 		left: 0;
@@ -28,8 +28,9 @@ header{
 		width:64px;
 		height: auto;
 		@media screen and (max-width: 63.9375em) {
-			width:32px;
+			width:42px;
 			height: auto;
+			
 		}
 
 
