@@ -25,11 +25,15 @@
 	}
 
 	@media screen and (min-width: 64em){
-		right: -30rem;
+		// right: -30rem;
+		// font-size:2rem;
+		// animation-name: nav;
+		// animation-duration: 2s;
+		// animation-delay: 2s;
+		right: 5rem;
+		top: 50%;
+		transform: translateY(-50%);
 		font-size:2rem;
-		animation-name: nav;
-		animation-duration: 2s;
-		animation-delay: 2s;
 	}
 }
 main {
