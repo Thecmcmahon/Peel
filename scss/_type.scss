@@ -22,10 +22,17 @@ header{
 		margin-top: -10vh;
 		color: white;
 	}
-	.mainpara{
+	.maintitle{
 		font-family: Work, sans-serif;
 		// font-weight: 900;
-		font-size: 1.8rem;
+		font-size: 2.2rem;
 		margin: 0;
+		color: #F09676;
+	}
+	.para{
+		font-family: Work, sans-serif;
+		font-weight: 400;
+		color: #fff;
+		font-size: 1.2rem;
 	}
 }

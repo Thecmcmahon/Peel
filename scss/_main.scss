@@ -53,6 +53,7 @@ main{
 
 #image{
 	max-width: 100%;
+	height: 675px;
 }
 
 body{
@@ -73,6 +74,18 @@ img{
 	width: 100vw;
 	background-color: #CC4B3B;
 	transform: skewY(-10deg);
+	.title2{
+	// transform: skewY(-10deg);
+	font-family: $font-h1;
+	font-weight: 900;
+	max-width: 75rem;
+	margin: 0 auto;
+	line-height: 1;
+	font-size: 10rem;
+	margin-top: -15vh;
+	color: white;
+	text-align: center;
+	}
 }
 
 
@@ -83,19 +96,25 @@ img{
 	display: grid;
 	grid-gap: 20px;
 	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: repeat(12, 1fr);
+	grid-template-rows: repeat(2, 150px);
+	max-height: 850px;
 	.header{
 		grid-column: 11/13;
 		grid-row: 1 / 12;
 	}
 	.mainimage{
-		grid-column: 2/8;
+		grid-column: 1/7;
 		grid-row: 2 / 4;
+	}
+	.title{
+		grid-column: 6/11;
+		grid-row: 3;
+		align-self: end;
 	}
 	.para{
 		grid-column: 7/11;
-		grid-row: 3;
-		align-self: end;
+		grid-row: 2/4;
+		align-self: center;
 	}
 }
 
