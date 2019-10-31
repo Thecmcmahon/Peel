@@ -1,16 +1,15 @@
-$(document).foundation()
-// hide the overlay initially
-$('.overlay').hide();
+// $(document).foundation(){
 
+$(function() {
 
-// open overlay
-$('main img').click(function(){
-  $('.overlay').show();
-  $( "div" ).addClass( "blur" );
+  $(window).scroll(function() {
+
+    var mass = Math.max(250, 1500-1*$(this).scrollTop());
+
+    $('#vari').css({'font-variation-settings': '"wght"' + mass});
+    
+
+  });
 });
 
-// close overlay
-$('.overlay').click(function(){
-  $('.overlay').hide();
-  $( "div" ).removeClass( "blur" );
-});
+

@@ -1,4 +1,14 @@
-$color-background1: #9DC5BB;
-$color-background2: #EEE0CB;
-$color-text: #545F66;
-$color-box: #ccc;
+$font-logo: coquette, sans-serif;
+$font-vari: vari, sans-serif;
+
+$font-h1: coquette, sans-serif;
+
+
+@font-face{
+	font-family: 'Avenir Next';
+	src: url('../fonts/AvenirNext.woff2')
+}
+@font-face{
+	font-family: 'Work';
+	src: url('../fonts/WorkSans-Roman-VF.ttf')
+}

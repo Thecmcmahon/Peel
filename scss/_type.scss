@@ -1,76 +1,31 @@
-.header{
-	
-	font-family: linotype-didot,serif;
-	opacity: 1;
-	font-weight: 100;
-	font-style: normal;
-	font-size: 10rem;
-	text-align: center;
-	// margin-top: -20%;
-	color: $color-text;
-	position: relative;
-	@media screen and (min-width: 64em){
-		height:224px;
-	}
-	
-
-}
-h2{
-	font-family: linotype-didot,serif;
-	font-weight: 100;
-	font-style: normal;
-	text-decoration: underline;
-	margin-top: 2vh;
-}
-h3, h4{
-	font-family: linotype-didot,serif;
-	font-weight: 100;
-	text-align: center;
-}
-h3{
-	background-color: rgba(255,255,255,.75);
-	font-size: 1.5rem;
-	@media screen and (min-width: 64em){
-		margin-left: -20rem;
-		font-size: 3rem;
-		
-	}
-}
-
-
-
-.header-animation:after{
-	content: '';
-	animation-name: title;
-	animation-duration: 2s;
-	animation-delay: 1s;
-	animation-fill-mode: forwards;
-	@media screen and (max-width: 64em){
-		display: none;
-	} 
-}
-.nav{
-	font-family: linotype-didot,serif;
-	font-weight: 100;
-	font-style: normal;
-	text-align: right;
-}
-p{
-	font-family: garamond-premier-pro-display, serif;
-	font-weight: 400;
-	// font-size: 2.5rem;
-	@media screen and (min-width: 64em){
-	font-size: 1.4rem;
-}
-	@media screen and (max-width: 40em){
-		font-size: 1rem;
-
-	}
-}
-.mobile-home{
+header{
 	h1{
-		font-family: linotype-didot,serif;
-
+		font-family: $font-logo;
+		font-weight: 200;
+		// font-size: 10rem;
+		margin: 0;
+		grid-column: 1/-1;
 	}
+}
+
+.story{
 	
+	h1{
+		font-family: $font-h1;
+		font-weight: 900;
+		// transform: rotate(90deg);
+		writing-mode: tb-rl;
+		height: 100%;
+		line-height: 1;
+		margin: 0;
+		font-size: 10rem;
+		margin-top: -10vh;
+		color: white;
+	}
+	.mainpara{
+		font-family: Work, sans-serif;
+		// font-weight: 900;
+		font-size: 1.8rem;
+		margin: 0;
+	}
 }
