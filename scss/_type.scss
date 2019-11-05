@@ -27,7 +27,7 @@ header{
 		// font-weight: 900;
 		font-size: 2.2rem;
 		margin: 0;
-		color: #F09676;
+		color: white;
 	}
 	.para{
 		font-family: Work, sans-serif;
@@ -36,3 +36,92 @@ header{
 		font-size: 1.2rem;
 	}
 }
+
+.section3{
+	margin-bottom: 20px;
+	h1{
+		font-family: $font-h1;
+		font-weight: 900;
+		// transform: rotate(90deg);
+		writing-mode: tb-rl;
+		height: 100%;
+		line-height: 1;
+		margin: 0;
+		font-size: 10rem;
+		text-align: center;
+		color: $color-red;
+	}
+	h2{
+		font-family: $font-h1;
+		font-weight: 100;
+		line-height: 1;
+		margin: 0;
+		font-size: 7rem;
+		color: $color-red;
+	}
+	h3{
+		font-family: 'Work';
+		// font-weight: 300;
+		line-height: 1;
+		margin: 0;
+		font-size: 4rem;
+		color: $color-red;
+	}
+	.ing1,.ing2{
+		font-family: 'Work';
+		font-weight: 400;
+		font-size: 1rem;
+		color: $color-red;
+		ul{
+			list-style: none;
+			padding: 0;
+			.limargin{
+				margin-right: -15px;
+			}
+		}
+	}
+	.instructions1, .instructions2{
+		font-family: 'Work';
+		font-weight: 400;
+		font-size: 1rem;
+		color: $color-red;
+	}
+	.img1{
+		img{
+			border-color: $color-red;
+			border-width: 2px;
+			border-radius: 5px;
+		}
+		
+	}
+}
+
+.section4{
+
+	h1{
+		font-family: $font-h1;
+		font-weight: 900;
+		// transform: rotate(90deg);
+		writing-mode: tb-rl;
+		height: 100%;
+		line-height: 1;
+		margin: 0;
+		font-size: 10rem;
+		text-align: center;
+		margin-top: -12rem;
+		color: white;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

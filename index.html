@@ -10,6 +10,7 @@
   </head>
   
   <body>
+    
     <header>
       <div class="item1">
         <!-- <img src="images/logo.svg"> -->
@@ -22,7 +23,7 @@
           <path class="cls-1" d="M343.93,231.1c-10.85,0-16.88-8.43-16.88-18.48v-126h3.22v126c0,8.24,4.82,15.47,13.66,15.47a19.84,19.84,0,0,0,11.85-3.82v3.82A22.17,22.17,0,0,1,343.93,231.1Z" transform="translate(-4.22 -84.45)"/>
         </svg>
       </div>
-      <div class="item2"><a href="">Story</a></div>
+      <div class="item2"><a href="#vari2">Story</a></div>
       <div class="item3"><a href="">FAQ</a></div>
       <div class="item4"><a href="">Buy</a></div>
     </header>
@@ -30,13 +31,13 @@
 
     <main>
       <span id="image"></span>
-      <input autocomplete="off" type="range" min="1" max="5" value="1" class="slider" id="myRange">
+      <input autocomplete="off" type="range" min="1" max="285" value="1" class="slider" id="myRange">
       
 
     </main>
     <div class="background1">
       <section class="story">
-        <div class="header"><h1>Who are we?</h1></div>
+        <div class="title1"><h1>Who are we?</h1></div>
         <div class="mainimage"><img src="images/one.jpeg"></div>
         <div class="title">
           <p id="vari" class="maintitle">Grandma & Grand Son Duo</p>
@@ -51,8 +52,63 @@
         </div>
         
       </section>
-      <h1 class="title2">Frequent ?'s</h1>
+      
     </div>
+    <section class="section3">
+      <div class="title2"><h1>Recipes</h1></div>
+      <div class="subhead1"><h2>Hashbrowns</h2></div>
+      <div class="ingredients"><h3 id="vari2">Ingredients</h3></div>
+      <div class="img1"><img src="images/recipe1.jpeg"></div>
+      <div class="ing1">
+        <ul>
+          <li class="limargin">2 Russet Potatoes, medium, shredded</li>
+          <li>1 egg</li>
+          <li>1/4 cup parmesan, shredded</li>
+          <li>3 Tbsp chives</li>
+          <li>2 Tbsp all purpose flour</li>
+          <li>2 tsp salt</li>
+          <li>1/2 tsp chile powder</li>
+          <li>1/2 tsp dried basil</li>
+          <li>1/4 tsp ground cumin</li>
+          <li>1/4 tsp black pepper</li>
+          <li>Vegetable oil, for frying</li>
+        </ul>
+      </div>
+      <div class="instructions1">
+        <p>To start, get a medium sized mixing bowl for the ingredients. Then start peeling your potatoes, Peel can make short work of this. Once peeled, shred them with a wide hole grater. mix with water? Dump the water and extra juices out. To get the extra juices out of the potatoes, squeeze them in the bowl until dry, then dump. Add the other ingredients and mix well. Set a deep pan on medium to high heat with an inch or two of vegetable oil. Once oil is hot place a formed hashbrown patty into the oil, it should start to sizzle and bubble if oil is hot enough. Check the bottom of the hashbrown to see if golden and when it is, flip it. When cleaning up, let the oil cool because hot oil and water can be a disastrous mixture.</p>
+      </div>
+
+      
+      <div class="subhead2"><h2>Apple Pie</h2></div>
+      <div class="ingredients2"><h3 id="vari3">Ingredients</h3></div>
+      <div class="img2"><img src="images/recipe1.jpeg"></div>
+      <div class="ing2">
+        <ul>
+          <li class="limargin">2 Russet Potatoes, medium, shredded</li>
+          <li>1 egg</li>
+          <li>1/4 cup parmesan, shredded</li>
+          <li>3 Tbsp chives</li>
+          <li>2 Tbsp all purpose flour</li>
+          <li>2 tsp salt</li>
+          <li>1/2 tsp chile powder</li>
+          <li>1/2 tsp dried basil</li>
+          <li>1/4 tsp ground cumin</li>
+          <li>1/4 tsp black pepper</li>
+          <li>Vegetable oil, for frying</li>
+        </ul>
+      </div>
+      <div class="instructions2">
+        <p>To start, get a medium sized mixing bowl for the ingredients. Then start peeling your potatoes, Peel can make short work of this. Once peeled, shred them with a wide hole grater. mix with water? Dump the water and extra juices out. To get the extra juices out of the potatoes, squeeze them in the bowl until dry, then dump. Add the other ingredients and mix well. Set a deep pan on medium to high heat with an inch or two of vegetable oil. Once oil is hot place a formed hashbrown patty into the oil, it should start to sizzle and bubble if oil is hot enough. Check the bottom of the hashbrown to see if golden and when it is, flip it. When cleaning up, let the oil cool because hot oil and water can be a disastrous mixture.</p>
+      </div>
+
+    </section>
+    <section class="background1">
+      <div class="section4">
+        <div class="title3"><h1>Frequent ?s</h1></div>
+        
+      </div>
+      
+    </section>
 
 
 
@@ -82,10 +138,10 @@
     <script>
       var slider = document.getElementById("myRange");
       var output = document.getElementById("image");
-      output.innerHTML = "<img src='images/slider/1.jpg'>";
+      output.innerHTML = "<img src='images/slider/peel 1.jpg'>";
 
       slider.oninput = function() {
-      output.innerHTML = "<img src='images/slider/" + this.value +".jpg'>";
+      output.innerHTML = "<img src='images/slider/peel " + this.value +".jpg'>";
 }
 
 

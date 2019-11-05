@@ -72,7 +72,7 @@ img{
 
 .background1{
 	width: 100vw;
-	background-color: #CC4B3B;
+	background-color: $color-red;
 	transform: skewY(-10deg);
 	.title2{
 	// transform: skewY(-10deg);
@@ -98,7 +98,7 @@ img{
 	grid-template-columns: repeat(12, 1fr);
 	grid-template-rows: repeat(2, 150px);
 	max-height: 850px;
-	.header{
+	.title1{
 		grid-column: 11/13;
 		grid-row: 1 / 12;
 	}
@@ -117,9 +117,87 @@ img{
 		align-self: center;
 	}
 }
+.section3{
+	max-width: 75rem;
+	margin: 0 auto;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: repeat(16, 100px);
+	.title2{
+		grid-column: 11/13;
+		grid-row: 1 / -1;
+		align-self: center;
+
+	}
+	.subhead1{
+		grid-column: 7/11;
+		grid-row: 3;
+	}
+	.img1{
+		grid-column: 1/7;
+		grid-row: 3/7;
+	}
+	.ingredients{
+		grid-column: 8/11;
+		grid-row: 4;
+	}
+	.ing1{
+		grid-column: 8/11;
+		grid-row: 5;
+	}
+	.instructions1{
+		grid-column: 2/10;
+		grid-row: 7/9;
+		align-self: center;
+
+	}
+	.subhead2{
+		grid-column: 7/12;
+		grid-row: 11;
+	}
+	.img2{
+		grid-column: 1/7;
+		grid-row: 11/15;
+	}
+	.ingredients2{
+		grid-column: 8/11;
+		grid-row: 12;
+	}
+	.ing2{
+		grid-column: 8/11;
+		grid-row: 13;
+	}
+	.instructions2{
+		grid-column: 2/10;
+		grid-row: 15/17;
+		align-self: center;
+
+	}
+
+}
 
 
 
+
+.section4{
+	margin-top: 20px !important;
+	transform: skewY(10deg);
+	max-width: 75rem;
+	margin: 0 auto;
+	display: grid;
+	// grid-gap: 20px;
+	row-gap: 10px;
+	column-gap: 20px;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: repeat(12, 50px);
+	.title3{
+		grid-column: 11/13;
+		grid-row: 1 / -1;
+		align-self: center;
+	}
+
+}
 
 
 
