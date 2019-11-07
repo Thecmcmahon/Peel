@@ -54,6 +54,7 @@ main{
 	.title1{
 		grid-column: 1/-1;
 		grid-row: 1;
+
 	}
 	.mainimage{
 		grid-column: 1/-1;
@@ -68,6 +69,10 @@ main{
 	.title{
 		grid-column: 1/-1;
 		grid-row: 5;
+		.maintitle{
+			font-size: 1.8rem;
+			text-align: center;
+		}
 	}
 
 	
