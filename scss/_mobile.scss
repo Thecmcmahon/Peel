@@ -19,64 +19,64 @@
 // Mobile 
 @media screen and (max-width: 39.9375em){
 	html{
-		overflow-x: inherit;
+		// overflow-x: inherit;
 	}
 	body{
 		overflow-x: hidden;
 	}
-header{
+	header{
 	margin: 5vh 2vw;
 	.item1{
 		grid-column: 1/6;
 	}
-}
+	}
 
-main{
+	main{
 	#image{
 		height: inherit;
 	}
-}
+	}
 
-.story{
-	grid-template-rows: repeat(9, 80px);
-	h1{
+	.story{
+		grid-template-rows: repeat(9, 80px);
+		h1{
 
-		transform: skewY(-10deg);
-		writing-mode: inherit;
-		height: 100%;
-		line-height: 1;
-		margin: 0;
-		font-size: 4.2rem;
-		margin-top: -1.5vh;
-		color: white;
-		text-align: center;
-	}
-	.title1{
-		grid-column: 1/-1;
-		grid-row: 1;
-
-	}
-	.mainimage{
-		grid-column: 1/-1;
-		grid-row: 2;
-	}
-	.para{
-		grid-column: 1/-1;
-		grid-row: 6;
-		align-self: inherit;
-		font-size: 1rem;
-	}
-	.title{
-		grid-column: 1/-1;
-		grid-row: 5;
-		.maintitle{
-			font-size: 1.8rem;
+			transform: skewY(-10deg);
+			writing-mode: inherit;
+			height: 100%;
+			line-height: 1;
+			margin: 0;
+			font-size: 4.2rem;
+			margin-top: -1.5vh;
+			color: white;
 			text-align: center;
 		}
-	}
+		.title1{
+			grid-column: 1/-1;
+			grid-row: 1;
+
+		}
+		.mainimage{
+			grid-column: 1/-1;
+			grid-row: 2;
+		}
+		.para{
+			grid-column: 1/-1;
+			grid-row: 6;
+			align-self: inherit;
+			font-size: 1rem;
+		}
+		.title{
+			grid-column: 1/-1;
+			grid-row: 5;
+			.maintitle{
+				font-size: 1.8rem;
+				text-align: center;
+			}
+		}
 
 	
-}
+	}
 
 .section3{
 	grid-template-rows: repeat(20, 100px);
@@ -156,6 +156,80 @@ main{
 		writing-mode: horizontal-tb;
 		font-size: 4rem;
 		margin-top: -1vh;
+	}
+	h2{
+		font-size: 2rem;
+	}
+	.q1{
+		grid-column: 1/-1;
+		grid-row: 3;
+	}
+	.q2{
+		grid-column: 1/-1;
+		grid-row: 6;
+	}
+	.q3{
+		grid-column: 1/-1;
+		grid-row: 9;
+	}
+}
+
+.section5{
+	margin-top: 0;
+	.title4{
+		transform: skewY(-10deg);
+		grid-column: 1/-1;
+		grid-row: 1;
+	}
+	h1{
+		writing-mode: horizontal-tb;
+		font-size: 4rem;
+		text-align: center;
+		
+	}
+	h3{
+		font-size: 2rem;
+	}
+	.itemName{
+		grid-column: 1/-1;
+		grid-row: 3;
+
+	}
+	.itemEmail{
+		grid-column: 1/-1;
+		grid-row: 5;
+	}
+	.itemMess{
+		grid-column: 1/-1;
+		grid-row: 7;
+	}
+	.itemButt{
+		grid-column: 1/-1;
+		grid-row: 11;
+		align-self: center;
+		justify-self: center;
+	}
+	.input1{
+		grid-column: 1/-1;
+		grid-row: 4;
+		text-align: center;
+	}
+	.input2{
+		grid-column: 1/-1;
+		grid-row: 6;
+		text-align: center;
+	}
+	.input3{
+		grid-column: 1/-1;
+		grid-row: 8/10;
+		text-align: center;
+	}
+	input, textarea{
+		width: auto;
+	
+	}
+	textarea{
+		width: 90%;
 	}
 }
 

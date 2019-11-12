@@ -111,11 +111,71 @@ header{
 		margin-top: -12rem;
 		color: white;
 	}
+	h2{
+		font-family: $font-h1;
+		font-weight: 900;
+		font-size: 4rem;
+		color: white;
+		text-align: center;
+	}
 }
 
 
+.section5{
+	h1{
+		font-family: $font-h1;
+		font-weight: 900;
+		// transform: rotate(90deg);
+		writing-mode: tb-rl;
+		height: 100%;
+		line-height: 1;
+		margin: 0;
+		font-size: 10rem;
+		// text-align: center;
+		color: $color-red;
+	}
+	h3{
+		padding: 0;
+		margin: 0;
+		font-family: 'Work';
+		font-size: 2.5rem;
+		color: $color-red;
+		text-align: center;
 
-
+	}
+	input, textarea{
+		width:100%;
+		height: 100%;
+		font-size: 2rem;
+		font-family: "work";
+		text-align: center;
+		border-width: 2px;
+		border-color: $color-red;
+		border-radius: 20px;
+		border-style: solid;
+		color: $color-red;
+		}
+	textarea{
+		font-size: 1rem;
+		resize: none;
+		text-align: left;
+		padding: 5px;
+	}
+	button{
+		border-radius: 20px;
+		color: $color-red;
+		font-size: 2rem;
+		background-color: white;
+		border-color: $color-red;
+		border-width: 2px;
+		border-style: solid;
+		cursor: pointer;
+	}
+	button:hover{
+		color: white;
+		background-color: $color-red;
+	}
+}
 
 
 
