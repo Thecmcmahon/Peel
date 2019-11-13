@@ -352,6 +352,7 @@
 
 
 	.section4{
+		padding-bottom: 5vh;
 		.title3{
 			align-self: inherit;
 			grid-column: 1/-1;
@@ -379,10 +380,41 @@
 			grid-column: 1/-1;
 			grid-row: 9;
 		}
+		.p1{
+			grid-column: 3/11;
+			grid-row: 4;
+			justify-self: center;
+		}
+		.p2{
+			grid-column: 3/11;
+			justify-self: center;
+		}
+		.p3{
+			grid-column: 3/11;
+			grid-row: 10;
+		}
 	}
 
 
-
+	.section5{
+		h1{
+			font-size: 9rem;
+			writing-mode: horizontal-tb;
+			transform: skewY(-10deg);
+			text-align: center;
+			margin-top: -7vh;
+		}
+		h3{
+			font-size: 1.8rem;
+		}
+		.itemName, .itemEmail, .itemMess{
+			align-self: end;
+		}
+		.title4{
+			grid-column: 1/-1;
+			grid-row: 3;
+		}
+	}
 
 
 
