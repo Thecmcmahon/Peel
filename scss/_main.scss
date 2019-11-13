@@ -191,6 +191,9 @@ img,video{
 	column-gap: 20px;
 	grid-template-columns: repeat(12, 1fr);
 	grid-template-rows: repeat(12, 50px);
+	h2{
+		font-size: 3rem;
+	}
 	.title3{
 		grid-column: 11/13;
 		grid-row: 1 / -1;
@@ -205,14 +208,32 @@ img,video{
 	.q2{
 		transform: skewY(-10deg);
 		grid-column: 1/11;
-		grid-row: 5;
+		grid-row: 6;
 		align-self: center;
 	}
 	.q3{
 		transform: skewY(-10deg);
 		grid-column: 1/11;
-		grid-row: 8;
+		grid-row: 10;
 		align-self: center;
+	}
+	.p1{
+		transform: skewY(-10deg);
+		grid-column: 2/10;
+		grid-row: 3;
+		align-self: center;
+	}
+	.p2{
+		transform: skewY(-10deg);
+		grid-column: 2/10;
+		grid-row: 7;
+		align-self: center;
+	}
+	.p3{
+		transform: skewY(-10deg);
+		grid-column: 2/10;
+		grid-row: 11;
+		align-self: start;
 	}
 
 }
