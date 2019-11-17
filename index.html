@@ -31,13 +31,13 @@
     </header>
 
     <main id="main">
-      
-      <img src="images/slider/peel 1.jpg">
       <span id="">
-        <img id="imagetest" src="">
+        <video id="myVideo" autoplay muted loop>
+          <source src="video/peel.mp4" type="">
+        </video>
 
       </span>
-      <input autocomplete="off" type="range" min="1" max="284" value="1" class="slider" id="myRange">
+   <!--    <input autocomplete="off" type="range" min="1" max="284" value="1" class="slider" id="myRange"> -->
       
 
     </main>
@@ -161,13 +161,15 @@
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/app.js"></script>
-
+    <script>
+      document.getElementById("myVideo").playbackRate = 2.0; 
+    </script>
 
    <!--  <script type="text/javascript">
     	var rellax = new Rellax('.rellax');
     </script> -->
 
-    <script>
+<!--     <script>
       var slider = document.getElementById("myRange");
       var output = document.getElementById("image");
       // output.innerHTML = "<img src='images/slider/peel 1.jpg'>";
@@ -472,7 +474,7 @@
       document.getElementById("imagetest").src = imageSources[this.value];
 }
 
-    </script>
+    </script> -->
 
   </div>
   </body>
