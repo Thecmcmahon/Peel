@@ -19,10 +19,18 @@
 // Mobile 
 @media screen and (max-width: 39.9375em){
 	html{
-		// overflow-x: inherit;
+		// overflow-x: hidden !important;
 	}
 	body{
-		overflow-x: hidden;
+		// overflow-x: hidden;
+		margin: 0;
+		// height: auto;
+		max-width: 100vw;
+
+	}
+	.overflow{
+		overflow: hidden !important;
+		position: relative;
 	}
 	header{
 	margin: 5vh 2vw;
@@ -101,7 +109,7 @@
 		align-self: end;
 	}
 	h3{
-		font-size: 3.9rem;
+		font-size: 3rem;
 	}
 	.ingredients{
 		grid-column: 1/-1;
@@ -259,12 +267,12 @@
 
 // Tablet
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
-	html{
-		overflow-x: inherit;
-	}
-	body{
-		overflow-x: hidden;
-	}
+	// html{
+	// 	overflow-x: inherit;
+	// }
+	// body{
+	// 	overflow-x: hidden;
+	// }
 	header{
 		.item1{
 			margin: 0;
@@ -437,9 +445,9 @@
 
 
 @media screen and (min-width: 64em) and (max-width: 75em) {
-	body{
-		overflow-x: hidden;
-	}
+	// body{
+	// 	overflow-x: hidden;
+	// }
 	.section4{
 		h1{
 			font-size: 9.7rem;
