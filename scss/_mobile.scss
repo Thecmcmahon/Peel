@@ -232,6 +232,7 @@
 		writing-mode: horizontal-tb;
 		font-size: 4rem;
 		text-align: center;
+		margin-top: 0;
 		
 	}
 	h3{
@@ -321,11 +322,11 @@
 			grid-row: 8;
 		}
 		.mainimage{
-			grid-column: 3/10;
 			grid-row: 3 / 9;
+			grid-column: 3/11;
 		}
 		.para{
-			grid-column: 2/11;
+			grid-column: 2/12;
 			grid-row: 9;
 			align-self: inherit;
 		}
