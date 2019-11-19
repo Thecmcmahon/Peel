@@ -185,13 +185,22 @@
 
       </div>
     </section>
-
+    <footer>
+      <div><p>Made by Peel &copy; <span id="year"></span></p></div>
+      <div><input type="email" placeholder="Email" name="email"></div>
+      <div><button>Sign Up!</button></div>
+    </footer>
 
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/app.js"></script>
     <script>
       document.getElementById("myVideo").playbackRate = 2.0; 
+    </script>
+
+    <script type="text/javascript">
+        var d = new Date()
+        document.getElementById("year").innerHTML = (d.getFullYear());
     </script>
 
   </div>
